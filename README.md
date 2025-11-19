@@ -213,7 +213,7 @@ Other
 ## 📸 UI Preview (Example)
 
 
-<img width="1910" height="907" alt="image" src="https://github.com/user-attachments/assets/f930011d-47c2-433d-8730-ff291642cfa2" />
+<img width="1910" height="907" alt="image" src="https://github.com/user-attachments/assets/4e7e82f3-5093-4269-83e1-35fd6eab2a32" />
 
 
 
