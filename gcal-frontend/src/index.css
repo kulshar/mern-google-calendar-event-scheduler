@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* FullCalendar base tweaks */
+.fc .fc-toolbar-title {
+	@apply text-lg md:text-2xl font-semibold;
+}
+
+
