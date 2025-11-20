@@ -69,7 +69,9 @@ router.get("/success", (req, res) => {
   if (!req.session.userId) {
     return res.status(401).send("Not authenticated");
   }
-  return res.send("Authentication successful. You may close this window.");
+  const { CLIENT_ORIGIN } = getEnv();
+  return res.redirect(CLIENT_ORIGIN);
+  // return res.send("Authentication successful. You may close this window.");
 });
 
 router.get("/me", (req, res) => {
